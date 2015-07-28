@@ -51,9 +51,4 @@ public class AllTests {
 	public void testEmpyUndoManagerRedo() {
 		undoManager.redo();
 	}
-
-	@Before
-	public void beforeTest2() {
-		undoManager = undoManagerFactoryImpl.createUndoManager(null, 10);
-	}
 }
