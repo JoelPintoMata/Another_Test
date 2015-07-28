@@ -6,7 +6,7 @@ package undo;
  *
  */
 public interface Change {
-	
+
 	/**
 	 * Returns the type of the change. 
 	 */
